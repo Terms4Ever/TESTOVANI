@@ -23,8 +23,10 @@ namespace TESTOVANI
             int b = Convert.ToInt32(textBox2.Text);
             int vysledek = a + b;
             int vysledek1 = a - b;
+            int vysledek2 = a * b;
             MessageBox.Show(vysledek.ToString());
             MessageBox.Show(vysledek1.ToString());
+            MessageBox.Show(vysledek2.ToString());
         }
     }
 }
