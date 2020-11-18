@@ -16,5 +16,15 @@ namespace TESTOVANI
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
+            int vysledek = a + b;
+            int vysledek1 = a - b;
+            MessageBox.Show(vysledek.ToString());
+            MessageBox.Show(vysledek1.ToString());
+        }
     }
 }
